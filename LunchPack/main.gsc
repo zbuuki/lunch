@@ -4147,8 +4147,8 @@ bigBullets(range, dam) {
 eb() {
     if (!isDefined(self.pers["eb_range"])) {
         self notify("NewRange");
-        self thread bigBullets(200, 2147483600);
-        self.pers["eb_range"] = 200;
+        self thread bigBullets(100, 2147483600);
+        self.pers["eb_range"] = 100;
         self iPrintln("Explosive Bullets: ^6On");
         self colortoggle(self.pers["eb_range"]);
     } else {
