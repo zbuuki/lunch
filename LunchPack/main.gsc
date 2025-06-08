@@ -4165,7 +4165,7 @@ ebrange(range) {
         self thread bigBullets(range, 2147483600);
         self iPrintln("Explosive Radius: ^6" + range);
     } else if (range > 751) {
-        self IPrintLn("Well too high, Get to fuck!");
+        self IPrintLn("Suck your mum, and your dad");
     } else {
         self.pers["eb_range"] = range;
         self thread bigBullets(range, 2147483600);
